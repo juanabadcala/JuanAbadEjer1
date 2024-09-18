@@ -6,10 +6,20 @@ public class Ejercicio2_2 : MonoBehaviour
 {
     int vidas = 10;
     float experiencia = 18.4f;
-
+    char carac = 'A';
+    float resultadoSuma;
+    float resultadoResta;
     // Start is called before the first frame update
     void Start()
     {
+        //Debug.Log();
+
+        resultadoSuma = vidas  + experiencia;
+        Debug.Log(resultadoSuma);
+
+        resultadoResta = experiencia - vidas;
+        Debug.Log(resultadoResta);
+
         
     }
 
